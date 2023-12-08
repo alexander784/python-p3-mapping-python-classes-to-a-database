@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 
 from config import CONN, CURSOR
+from __init__ import CONN, CURSOR
+import pytest; pytest.set_trace()
+
+from config import CONN, CURSOR
 from song import Song
 
 
